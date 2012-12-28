@@ -1,4 +1,5 @@
 Retail::Application.routes.draw do
+    resources :retail
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
