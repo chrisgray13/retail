@@ -1,5 +1,4 @@
-class RetailController < ActionController::Base
-  protect_from_forgery
+class RetailController < ActionController
   def index
   end
 end
