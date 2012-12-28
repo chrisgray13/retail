@@ -1,0 +1,118 @@
+*
+{
+	font-family: helvetica, sans-serif;
+	font-size: 11px;
+	color: #6A6A6A;
+}
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #F7F7F7;
+}
+#header
+{
+	margin: 15px 114px;
+	text-align: center;
+}
+#header input
+{
+	position: absolute;
+	top: 0px;
+	margin: 15px 25px;
+}
+#header .left
+{
+	left: 0px;
+}
+#header .title h1
+{
+	margin: 0px;
+	line-height: 16px;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+}
+#header .title h6
+{
+	margin: 0px;
+	line-height: 16px;
+	letter-spacing: 1px;
+	font-size: 8px;
+	color: #C4C4C4;
+}
+#header .right
+{
+	right: 0px;
+}
+input
+{
+	background-color: #333333;
+	color: #F7F7F7;
+	height: 28px;
+	width: 64px;
+	border: none;
+}
+p
+{
+	margin: 0px 0px 20px 25px;
+	line-height: 150%;
+}
+p span
+{
+	font-size: 125%;
+}
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+table th, table td
+{
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+table thead th
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #6A6A6A;
+	border-top: 1px solid #6A6A6A;
+	
+	font-weight: normal;
+}
+table tfoot td
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #E4E4E4;
+}
+table tfoot .total
+{
+	text-align: right;
+	padding-bottom: 6px;
+	padding-right: 0px;
+}
+table tfoot .price
+{
+	font-size: 150%;
+	font-weight: bold;
+	color: #333333;
+}
+table tbody td
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+table .item
+{
+	width: 30%;
+	padding-left: 25px;
+}
+table .price
+{
+	width: 10%;
+	padding-right: 25px;
+}

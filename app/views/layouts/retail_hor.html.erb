@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<%= stylesheet_link_tag    "retail", :media => "all" %>
+	</head>
+	<body>
+		<div id="header">
+			<input class="left" type="button" value="Back" />
+			<div class="title">
+				<h1>SPECIALTY BRAND</h1>
+				<h6>PURVERYORS OF FINE GOODS</h6>
+			</div>
+			<input class="right" type="button" value="Scan" />
+		</div>
+		<p>
+			<span>Your Transfer Order</span><br>
+			123-495-39490
+		</p>
+		<p>
+			John Smith<br>
+			john@gmail.com
+		</p>
+		<p>
+			1234 Street<br>
+			Jacksonville, FL 23345
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th class="item">Item</th>
+					<th class="store">Store</th>
+					<th class="location">Location</th>
+					<th class="area">Area</th>
+					<th class="qty">Qty</th>
+					<th class="price">Price</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td class="total" colspan="5">Total</td>
+					<td class="price">$99.99</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td class="item">Marled Grey Sweater - M</td>
+					<td class="store">Store 53 - Jax</td>
+					<td class="location">Jacksonville, FL</td>
+					<td class="area">Sales Floor</td>
+					<td class="qty">1</td>
+					<td class="price">$99.99</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
